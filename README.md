@@ -6,7 +6,7 @@
 
 ## Hello, I'm Jude
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-linkedin-here/)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/chinaza-ibekwe-490883398)
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-website-link-here.com)
 
 If you asked me growing up if I would ever find my niche in tech, I wouldn't have believed you. My foundation is in Business Administration, where my focus was purely on the bottom line—maximizing profit and minimizing costs. Then I discovered cybersecurity, and everything clicked. Today, I bridge the gap between business strategy and technical security, understanding firsthand why executives often view security as a heavy cost center and how to align technical defense with business reality.
