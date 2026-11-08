@@ -29,17 +29,17 @@ As much as I love the technical thrill of threat detection and SOC analysis, I k
 
 ---
 
-## Featured SOC Investigations & Detection Labs
+## 📂 Featured SOC Investigations & Detection Labs
 
 ### 1. SIEM Alert Configuration & Dashboard Engineering
 | Lab / Engineering Task | MITRE ATT&CK ID | Technical Scope & Configuration | Link |
 | :--- | :--- | :--- | :--- |
-| **Scheduled Alert: Rogue Account Creation** | `T1136.001` (Persistence) | Configured an hourly scheduled Splunk alert (`EventCode=4720`) monitoring `subject_user` authorization and escalating to Triggered Alerts for immediate SOC triage. | [View Alert Lab →](#) |
-| **SOC Dashboard: Windows Activity & Firewall Monitoring** | `T1562.004` (Defense Evasion) | Built a multi-panel Splunk dashboard tracking failed/successful logons (`LogonType`, `EventCode=4624/4625`) and critical Windows Firewall exception additions (`EventCode=4946`). | [View Dashboard Lab →](#) |
+| **Scheduled Alert: Rogue Account Creation** | `T1136.001` (Persistence) | Configured an hourly scheduled Splunk alert (`EventCode=4720`) monitoring `subject_user` authorization and escalating to Triggered Alerts for immediate SOC triage. | [View Alert Lab →](https://github.com/ibekwejude-alt/SIEM-Detection-Labs/tree/main/01-Rogue-Account-Creation-Alert) |
+| **SOC Dashboard: Windows Activity & Firewall Monitoring** | `T1562.004` (Defense Evasion) | Built a multi-panel Splunk dashboard tracking failed/successful logons (`LogonType`, `EventCode=4624/4625`) and critical Windows Firewall exception additions (`EventCode=4946`). | [View Dashboard Lab →](https://github.com/ibekwejude-alt/SIEM-Detection-Labs/tree/main/02-Windows-Activity-Firewall-Dashboard) |
 
 ### 2. Threat Investigations & Incident Response
 | Investigation Case Study | MITRE ATT&CK Mapping | Triage & IR Lifecycle Summary | Link |
 | :--- | :--- | :--- | :--- |
-| **Ransomware & Domain Controller Compromise** | `T1566` • `T1053` • `T1078` • `T1018` • `T1021` • `T1074` • `T1486` | Mapped a full intrusion from a phishing PDF and LOLBin execution to AV impairment, `nslookup` discovery, RDP lateral movement, `1.7z` data staging, and ransomware impact. | [View Case Study →](#) |
-| **Endpoint Backdoor & Privilege Escalation Triage** | `T1078` • `T1136` • `T1562` | Investigated compromised credentials (`kporter`) creating an unauthorized `evil` account and modifying firewall rules; executed NIST containment, eradication, and recovery steps. | [View Case Study →](#) |
-| **Incident CoCanDa — Threat Investigation** | NIST IR Lifecycle | End-to-end forensic investigation, indicator analysis, and executive remediation reporting. | [View Report →](./Security-Report) |
+| **Ransomware & Domain Controller Compromise** | `T1566` • `T1053` • `T1078` • `T1018` • `T1021` • `T1074` • `T1486` | Mapped a full intrusion from a phishing PDF and LOLBin execution to AV impairment, `nslookup` discovery, RDP lateral movement, `1.7z` data staging, and ransomware impact. | [View Case Study →](https://github.com/ibekwejude-alt/Security-Report/tree/main/01-Ransomware-DC-Compromise) |
+| **Endpoint Backdoor & Privilege Escalation Triage** | `T1078` • `T1136` • `T1562` | Investigated compromised credentials (`kporter`) creating an unauthorized `evil` account and modifying firewall rules; executed NIST containment, eradication, and recovery steps. | [View Case Study →](https://github.com/ibekwejude-alt/Security-Report/tree/main/02-Endpoint-Backdoor-Triage) |
+| **Incident CoCanDa — Threat Investigation** | NIST IR Lifecycle | End-to-end forensic investigation, indicator analysis, and executive remediation reporting. | [View Report →](https://github.com/ibekwejude-alt/Security-Report) |
