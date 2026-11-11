@@ -29,6 +29,22 @@ As much as I love the technical thrill of threat detection and SOC analysis, I k
 
 ---
 
+## 📜 Professional Credentials & Certifications
+
+<p align="left">
+  <a href="YOUR_CREDLY_BADGE_URL" target="_blank">
+    <img src="https://img.shields.io/badge/ISC2-Certified_in_Cybersecurity_(CC)-007A3D?style=for-the-badge&logo=shield&logoColor=white" alt="ISC2 CC" />
+  </a>
+  <a href="YOUR_COURSERA_CERTIFICATE_LINK" target="_blank">
+    <img src="https://img.shields.io/badge/Google-Cybersecurity_Specialization-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Cybersecurity Certificate" />
+  </a>
+</p>
+
+| Credential | Issuing Body | Status / Cycle | Verification |
+| :--- | :--- | :--- | :--- |
+| **Certified in Cybersecurity (CC)** | **(ISC)²** | Active (2026 – 2029) | [Verify via Credly / (ISC)² ↗](https://www.credly.com/badges/1ff0c4cb-e650-4ed7-87ba-5c7251a87241/public_url) |
+| **Google Cybersecurity Professional** | **Google** | Active (2026) | [Verify Credential ↗](https://coursera.org/share/185869f35f33eb6e9c4898269f711004) |
+
 ## 📂 Featured SOC Investigations & Detection Labs
 
 ### 1. SIEM Alert Configuration & Dashboard Engineering
